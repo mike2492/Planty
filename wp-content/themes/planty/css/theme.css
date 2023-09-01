@@ -1,0 +1,842 @@
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: "Syne", sans-serif;
+}
+
+:root{
+    --color-1: #ECE2DA;
+    --color-2: #3B8E46;
+    --color-3: #D2776A;
+}
+
+.custom-logo{
+    width: 201px;
+    height: 19px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.white{
+    color: #fff;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* MENU */
+.header-inner{
+    height: 80px;
+    padding: 0;
+    margin-right: 0;
+    margin-left: auto;
+    width: calc(100% - 4rem);
+}
+
+.primary-menu{
+    height: 80px;
+    margin: 0rem 0 0 -2.5rem !important;
+}
+
+.primary-menu > li{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin: 0rem 0 0 2.5rem;
+}
+
+.primary-menu > li > a{
+    color: black !important;
+    text-decoration: none !important;
+}
+
+#menu-item-33 {
+    display: flex;
+    justify-content: center;
+    width: 236px;
+    order: 3;
+    background-color: #DC9F96;
+}
+
+#menu-item-33 > a{
+    color: #fff !important;
+}
+
+/* ACCUEIL */
+.accueil-1, .accueil-2, .accueil-3, .accueil-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.accueil-1, .accueil-3{
+    background-color: var(--color-1);
+}
+
+.accueil-2, .accueil-4{
+    position: relative;
+}
+
+.accueil-contenu > p, .accueil-3 > p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.accueil-1 > h1{
+    font-size: 38px;
+    font-weight: 800;
+    color: var(--color-2);
+}
+
+.boisson{
+    display: flex;
+    align-items: center;
+}
+
+.image-1{
+    position: relative;
+    z-index: 1;
+    left: 190px;
+    top: 10px;
+}
+
+.image-2{
+    position: relative;
+    z-index: 2;
+}   
+
+.image-3{
+    position: relative;
+    z-index: 1;
+    right: 195px;
+    top: 10px;
+}
+
+.accueil-2{
+    background-image: url("../img/rectangle-1.png");
+    background-size: 100% 415px;
+    bottom: 120px;
+    padding: 120px 0px 0px 0px;
+}
+
+.accueil-2 > h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--color-2);
+}
+
+.accueil-contenu{
+    width: 37%;
+}
+
+.accueil-3 > h3{
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--color-3);
+    text-transform: uppercase;
+}
+
+.accueil-galerie{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-galerie{
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.image-galerie > span{
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.pamplemousse{
+    width: 78%;
+}
+
+.framboise{
+    width: 54%;
+}
+
+.btn-order{
+    width: 198px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0B9B4;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.accueil-4{
+    background-image: url("../img/rectangle-2.png");
+    background-size: 100% 638px;
+    bottom: 60px;
+}
+
+.accueil-4 > h4{
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--color-2);
+    text-transform: uppercase;
+}
+
+.liste-avis{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.card-avis{
+    width: 33%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.avis-image{
+    width: 29%;
+}
+
+.avis-texte{
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+}
+
+.prenom{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--color-2);
+}
+
+/* NOUS RENCONTRER */
+.rencontrer-1, .rencontrer-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-1);
+}
+
+.rencontrer-2 > h2, .rencontrer-3 > h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.image-titre-rencontrer{
+    display: flex;
+    justify-content: center;
+}
+
+.fleur-1{
+    width: 145px;
+    height: 150px;
+}
+
+.titre-contenu{
+    width: 51%;
+}
+
+.titre-contenu > h1{
+    font-size: 38px;
+    font-weight: 800;
+    color: var(--color-3);
+}
+
+.titre-contenu > p{
+    font-size: 20px;
+    font-weight: 400;
+    width: 95%;
+}
+
+.rencontrer-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../img/rectangle-3.png");
+    background-size: 100% 554px;
+    height: 554px;
+    position: relative;
+    bottom: 100px;
+    padding: 320px 0px 0px 0px;
+}
+
+.liste-team{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-texte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-texte > span{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+.team-texte > p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.branche-gauche{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 88px;
+}
+
+.branche-gauche > img{
+    width: 191px;
+    height: 219px;
+}
+
+.rencontrer-3{
+    padding: 80px 0px 0px 0px;
+}
+
+.form-1{
+    z-index: 0;
+}
+
+.rencontrer-submit{
+    width: 198px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0B9B4 !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    text-decoration: none !important;
+    border-radius: 10px !important;
+    font-family: "Syne", sans-serif;
+    text-transform: capitalize !important;
+}
+
+.fleur-2{
+    position: relative;
+    z-index: -1;
+    right: 90px;
+    bottom: 207px;
+}
+
+/* COMMANDER */
+.commander-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-2);
+}
+
+.commander-1 > h1{
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.form-commander-1{
+    width: 90%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5%;
+}
+
+.form-commander-1 > h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.fruits{
+    display: flex;
+    margin: 0px -15px;
+}
+
+.card-fruit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.image-fruit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+    position: relative;
+}
+
+.image-fruit > span{
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.pamplemousse-2{
+    width: 48%;
+}
+
+.framboise-2{
+    width: 33%;
+}
+
+.ajout-produit{
+    margin-top: 10%;
+}
+
+.uacf7-form-36{
+    display: flex;
+    padding: 0px 15px;
+}
+
+.group{
+    display: flex;
+    height: 56px;
+}
+
+.btn-txt{
+    padding: 0 !important;
+    text-align: center;
+    width: 48% !important;
+    border: none !important;
+    border-radius: 10px 0px 0px 10px !important;
+}
+
+.btn-math{
+    padding: 0 !important;
+    height: 28px;
+    text-align: center;
+    width: 24% !important;
+    border: none !important;
+    background-color: #DC9F96 !important;
+}
+
+.btn-math:first-child{
+    border-radius: 0px 10px 0px 0px;
+}
+
+.btn-math:last-child{
+    border-radius: 0px 0px 10px 0px;
+}
+
+.btn-submit{
+    padding: 0 !important;
+    width: 87% !important;
+    background-color: #E0B9B4;
+    border-radius: 10px;
+    text-decoration: none !important;
+}
+
+.form-commander-2{
+    width: 90%;
+    padding-top: 5%;
+}
+
+.uacf7-col-6{
+    padding: 0px 30px;
+}
+
+.uacf7-col-6:first-child{
+    border-right: 1px solid #fff;
+    height: 317px;
+}
+
+.uacf7-col-6 > h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0rem auto 3rem;
+}
+
+.commander-submit{
+    width: 198px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0B9B4 !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    text-decoration: none !important;
+    border-radius: 10px !important;
+    font-family: "Syne", sans-serif;
+    text-transform: capitalize !important;
+}
+
+/* FOOTER */
+.bg-footer{
+    background-image: url("../img/bg-footer.png");
+    width: 100%;
+    height: 131px;
+}
+
+#site-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height: 60px;
+}
+
+#site-footer > p{
+    margin: 0
+}
+
+/* RESPONSIVE DESIGN */
+@media screen and (min-width: 320px) and (max-width: 699px){
+    /* MENU */
+    .header-inner{
+        display: flex;
+    }
+
+    /* ACCUEIL */
+    .accueil-1 > h1, .accueil-2 > h2, .accueil-3 > h3, .accueil-4 > h4{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .accueil-3 > p{
+        width: 90%;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .accueil-contenu{
+        width: 90%;
+    }
+
+    .image-1{
+        left: 56px;
+        top: 10px;
+    }
+
+    .image-3{
+        right: 58px;
+        top: 10px;
+    }
+
+    .accueil-galerie{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-galerie{
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .image-galerie > span{
+        font-size: 30px;
+    }
+
+    .pamplemousse-2{
+        width: 52%;
+    }
+
+    .framboise-2{
+        width: 36%;
+    }
+
+    .liste-avis{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-avis{
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    /* NOUS RENCONTRER */
+    .image-titre-rencontrer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titre-contenu{
+        width: 90%;
+    }
+
+    .titre-contenu > h1{
+        font-size: 20px;
+    }
+
+    .titre-contenu > p{
+        font-size: 18px;
+    }
+
+    .rencontrer-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 120px 0px 0px 0px;
+    }
+
+    .liste-team{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .branche-gauche{
+        display: none;
+    }
+
+    .fleur-2{
+        display: none;
+    }
+
+    /* COMMANDER */
+    .commander-1 > h1, .form-commander-1 > h2, .uacf7-col-6 > h3{
+        font-size: 25px;
+    }
+
+    .form-commander-1 > h2, .uacf7-col-6 > h3{
+        text-align: center;
+    }
+
+    .uacf7-col-6 > h3{
+        margin: 6rem auto 3rem;
+    }
+
+    .fruits{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-fruit{
+        width: 90%;
+    }
+
+    .ajout-produit{
+        margin: 10% 0%;
+    }
+
+    .uacf7-form-36{
+        padding: 0% 7%;
+    }
+
+    .uacf7-col-6:first-child{
+        border: none;
+    }
+
+    .form-commander-2{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px){
+    /* MENU */
+    .header-inner{
+        display: flex;
+    }
+
+    /* ACCUEIL */
+    .accueil-1 > h1, .accueil-2 > h2, .accueil-3 > h3, .accueil-4 > h4{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .image-1{
+        left: 123px;
+        top: 10px;
+    }
+
+    .image-3{
+        right: 125px;
+        top: 10px;
+    }
+
+    .accueil-contenu{
+        width: 68%;
+    }
+
+    .image-galerie > span{
+        font-size: 28px;
+    }
+
+    .image-galerie{
+        padding: 0% 2%;
+    }
+
+    .pamplemousse{
+        width: 94%;
+    }
+
+    .framboise{
+        width: 64%;
+    }
+
+    .liste-avis{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-avis{
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    /* NOUS RENCONTRER */
+    .titre-contenu{
+        width: 90%;
+    }
+
+    .titre-contenu > h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .rencontrer-2{
+        padding: 120px 0px 0px 0px;
+    }
+
+    .branche-gauche{
+        display: none;
+    }
+
+    /* COMMANDER */
+    .form-commander-1 > h2, .uacf7-col-6 > h3{
+        text-align: center;
+    }
+
+    .uacf7-col-6 > h3{
+        margin: 6rem auto 3rem;
+    }
+
+    .fruits{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-fruit{
+        width: 90%;
+    }
+
+    .pamplemousse-2{
+        width: 35%;
+    }
+    
+    .framboise-2{
+        width: 24%;
+    }
+
+    .ajout-produit{
+        margin: 10% 0%;
+    }
+
+    .form-commander-2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .uacf7-form-36{
+        padding: 0% 8%;
+    }
+
+    .uacf7-col-6:first-child{
+        border: none;
+    }
+
+    .uacf7-col-6{
+        width: 100%;
+        float: none;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1348px){
+    /* ACCUEIL */
+    .image-1{
+        left: 175px;
+        top: 10px;
+    }
+
+    .image-3{
+        right: 180px;
+        top: 10px;
+    }
+
+    .accueil-contenu{
+        width: 38%;
+    }
+
+    .image-galerie{
+        padding: 0% 2%;
+    }
+
+    .image-galerie > span{
+        font-size: 40px;
+    }
+
+    .pamplemousse{
+        width: 88%;
+    }
+
+    .framboise{
+        width: 60%;
+    }   
+
+    /* NOUS RENCONTRER */
+    .titre-contenu{
+        width: 60%;
+    }
+
+    .titre-contenu > h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .rencontrer-2{
+        padding: 120px 0px 0px 0px;
+    }
+
+    .branche-gauche{
+        display: none;
+    }
+
+    /* COMMANDER */
+    .pamplemousse-2{
+        width: 64%;
+    }
+
+    .framboise-2{
+        width: 44%;
+    }
+}
